@@ -84,12 +84,14 @@ ul {
 
 .submit-btn {
     background-color: #FFDA81;
+    color: #000000;
     padding: 0.4em 2em;
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 550;
     font-size: 1.3em;
     border-radius: 4px;
     border-width: 1px;
+    border-color: #000000;
     margin: 0.5em;
 }
 
