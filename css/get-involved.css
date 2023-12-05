@@ -6,6 +6,7 @@
 
 .support-btn {
     background-color: #E9C7FF;
+    color: #000000;
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 1.4em;
@@ -16,6 +17,7 @@
 
 .apply-btn {
     background-color: #FFDA81;
+    color: #000000;
     font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 1.4em;
