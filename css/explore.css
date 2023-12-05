@@ -1,0 +1,82 @@
+.explore-banner {
+    background-image: url(/photos/mavis-cw-164128.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.explore-banner h1 {
+    padding-top: 8em;
+    color: #ffffff;
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.explore-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-img {
+    width: 300px;
+    height: 100%;
+    border-radius: 50px;
+    padding: 1em;
+}
+
+.explore-padding {
+    padding-bottom: 1em;
+}
+
+@media (min-width: 700px) {
+
+    .explore-banner {
+        height: 400px;
+    }
+
+    .explore-banner h1 {
+        padding-top: 8.3em;
+        font-size: 2.5em;
+    }
+
+    .explore-flex {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .half-width {
+        flex: 1;
+        width: 50%;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .for-kids-heading {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-left: 0em;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .explore-img {
+        padding: 2em;
+    }
+
+    .text-width {
+        width: 90%;
+    }
+
+}

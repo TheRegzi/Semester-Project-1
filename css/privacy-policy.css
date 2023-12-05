@@ -1,0 +1,19 @@
+
+.privacy-padding {
+    padding: 1em 0;
+}
+
+@media (min-width: 800px) {
+    .content-heading {
+        padding-left: 3.9em;
+    }
+
+    .content-font {
+        width: 75%;
+        padding-left: 5.8em;
+    }
+
+    .privacy-li {
+        margin-left: 3em;
+    }
+}

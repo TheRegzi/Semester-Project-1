@@ -1,0 +1,40 @@
+.underline {
+    text-decoration: underline;
+}
+
+.special-events-padding {
+    padding: 1em 0 2em;
+}
+
+.special-events-img {
+    width: 350px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 45px;
+    margin: 0.5em 0;
+}
+
+.special-events-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 800px) {
+    .special-events-flex {
+    flex-direction: row;
+    }
+
+    .content-font {
+        width: 80%;
+        margin: 1em 1.3em;
+    }
+
+    .special-events-img {
+        margin: 3em;
+    }
+
+    .special-events-padding {
+        padding: 1em;
+    }
+}

@@ -1,0 +1,118 @@
+.banner-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.container-homepage {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.box_1 {
+    width: 100%;
+    height: 200px;
+}
+
+.explore-btn {
+    background-color: #FFDA81;
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1.3em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.explore-btn i {
+    margin-left: 10px;
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+.home-photo1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.box_2 {
+    width: 100%;
+    height: 250px;
+}
+
+.home-photo2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(/photos/toa-heftiba-412579.jpg);
+    background-size: cover;
+    background-position: 30% 65%;
+}
+
+.home-heading-1 {
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-heading-2 {
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-text {
+    width: 90%;
+    padding: 1em;
+}
+
+.exhibition-btn {
+    background-color: #E9C7FF;
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+@media (min-width: 700px) {
+
+    .banner-photo {
+        height: 400px;
+    }
+
+    .container-homepage {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .box_1 {
+        height: 225px;
+    }
+
+    .box_2 {
+        height: 275px;
+    }
+
+    .home-text {
+        width: 73%;
+        padding-left: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .home-photo1 {
+        height: 225px;
+    }
+
+    .home-photo2 {
+        height: 275px;
+    }
+
+    .explore-btn-margin {
+        margin: 1.5em 0em 0em 0.8em;
+    }
+
+    .exhibition-btn {
+        margin-left: 2em;
+    }
+
+}
