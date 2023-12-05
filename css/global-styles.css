@@ -160,7 +160,8 @@ footer li {
 padding: 0;
 }
 
-footer h1 {
+.footer-heading {
+    font-weight: 500;
     font-size: 1.2em;
 }
 
