@@ -7,10 +7,14 @@
 }
 
 .explore-banner h1 {
-    padding-top: 8em;
+    top: 235px;
+    padding: 13px;
     color: #ffffff;
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    align-items: center;
+    background: rgb(0,0,0,0.5);
+    position: relative;
 }
 
 .explore-flex {
@@ -37,8 +41,8 @@
     }
 
     .explore-banner h1 {
-        padding-top: 8.3em;
         font-size: 2.5em;
+        top: 325px;
     }
 
     .explore-flex {

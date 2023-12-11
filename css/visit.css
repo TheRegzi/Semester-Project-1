@@ -7,10 +7,13 @@
 }
 
 .visit-banner-img h1 {
-    padding-top: 8em;
     color: #ffffff;
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    top: 235px;
+    padding: 13px;
+    background: rgb(0,0,0,0.5);
+    position: relative;
 }
 
 .visit-heading {
@@ -108,8 +111,8 @@ ul {
     }
 
     .visit-banner-img h1 {
-        padding-top: 8.3em;
         font-size: 2.5em;
+        top: 325px;
     }
 
     .content-font {
