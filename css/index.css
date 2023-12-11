@@ -52,8 +52,11 @@
     background-position: 30% 65%;
 }
 
-.home-heading-1 {
+.home-heading-1 h1,
+.home-heading-1 h2 {
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 1em;
 }
 
 .home-heading-2 {
@@ -63,6 +66,7 @@
 .home-text {
     width: 90%;
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 .exhibition-btn {
@@ -93,8 +97,13 @@
         height: 275px;
     }
 
+    .home-heading-1 h1,
+    .home-heading-1 h2 {
+     font-size: 1.1em;
+    }
+
     .home-text {
-        width: 73%;
+        width: 70%;
         padding-left: 2em;
         margin-bottom: 0.5em;
     }
