@@ -96,6 +96,7 @@ ul {
     border-width: 1px;
     border-color: #000000;
     margin: 0.5em;
+    cursor: pointer;
 }
 
 .submit {
