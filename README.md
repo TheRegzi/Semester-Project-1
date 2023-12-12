@@ -4,5 +4,7 @@ This website is my submission for Semester Project 1 at my Front-end Development
 # Description
 This project aims to design and develop a modern, accessible, and responsive web presence for the Community Science Museum targeting primary and middle school children and families.
 
- 
+# Link
+https://theregzi.github.io/Semester-Project-1/
+
 
