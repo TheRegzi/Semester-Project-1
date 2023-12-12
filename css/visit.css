@@ -42,6 +42,10 @@ ul {
     padding: 1em 0 2em;
 }
 
+.visit-spacing {
+    padding: 1em;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -52,6 +56,7 @@ ul {
 }
 
 .fa-solid.fa-location-dot,
+.fa-solid.fa-phone,
 .fa-solid.fa-clock,
 .fa-solid.fa-utensils,
 .fa-solid.fa-basket-shopping {
