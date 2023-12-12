@@ -172,7 +172,6 @@ footer a {
     margin: 0 0em 1em;
 }
 
-
 footer address {
     width: 80%;
 }
@@ -187,13 +186,11 @@ footer li {
     padding: 0;
 }
 
-
 @media (min-width: 1000px) {
     
     p {
         font-size: 1.1em;
     }
-
 
     .content-font {
         font-size: 1.1em;
