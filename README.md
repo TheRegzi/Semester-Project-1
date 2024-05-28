@@ -1,5 +1,5 @@
 # Semester Project 1 - Community Science Museum
-![Website image](assets/website-image.JPG)
+![Website image](assets/andrew-ruiz-348421.jpg)
 
 This website is my submission for Semester Project 1 at my Front-end Development studies at Noroff Vocational School.
 
